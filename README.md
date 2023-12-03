@@ -95,26 +95,19 @@ Dalam hal ini:
 Secara keseluruhan, model ini tampaknya berperforma baik di berbagai kelas dengan presisi, recall, dan F1-score yang tinggi. Namun, penting untuk mempertimbangkan kebutuhan dan tujuan klasifikasi yang spesifik.
 Feel free to adjust the columns in the table below.
 
-| model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | ... |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Modified_efficienNet | 30 |  0.001 | 32 | Adam | 0.093 | 88.34% | 84.15% | ... |
-| vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% | 87.55% | ... |
-| ... | ... | ... | ... | ... | ... | ... | ... | ... | 
-
 #### 2. Ablation Study
-Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
-
-| model | layer_A | layer_B | layer_C | ... | top1_acc | top5_acc |
-| --- | --- | --- | --- | --- | --- | --- |
-| vit_b_16 | Conv(3x3, 64) x2 | Conv(3x3, 512) x3 | Conv(1x1, 2048) x3 | ... | 77.43% | 80.08% |
-| vit_b_16 | Conv(3x3, 32) x3 | Conv(3x3, 128) x3 | Conv(1x1, 1028) x2 | ... | 72.11% | 76.84% |
-| ... | ... | ... | ... | ... | ... | ... |
+Berikut arsitektur modfikasi model efficientNet pytorch : 
+![Beige Colorful Minimal Flowchart Infographic Graph](https://github.com/rianovitaa/Final-Project/assets/85721522/85969263-2e97-439b-b6e6-c71678951627)
 
 #### 3. Training/Validation Curve
 Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
- 
+
+![trainind and test result ](https://github.com/rianovitaa/Final-Project/assets/85721522/afddcb03-b1f9-4fb3-8b2c-370dc25a61b8)
+
 ### Testing
-Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
+Berikut hasil gambar yang dapat diprediksi setelah model dilakukan pelatihan . 
+
+![testing](https://github.com/rianovitaa/Final-Project/assets/85721522/b93d1c65-7b73-40c2-9b62-83f4655f3ae4)
 
 ### Deployment (Optional)
 Describe and show how you deploy this project (e.g., using Streamlit or Flask), if any.
