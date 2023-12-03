@@ -24,12 +24,19 @@ Alasan utama di balik pengembangan aplikasi Plant Health Monitoring adalah untuk
 
 ## Setup
 ### Prerequisite Packages (Dependencies)
-- pandas==2.1.0
-- openai==0.28.0
-- google-cloud-aiplatform==1.34.0
-- google-cloud-bigquery==3.12.0
-- ...
-- ...
+
+- pandas>=1.1.4
+- seaborn>=0.11.0
+- python==3.9.13
+- torch>=1.7.0
+- torchvision>=0.8.1
+- streamlit==1.29.0
+- matplotlib>=3.2.2
+- numpy>=1.18.5
+- Pillow>=7.1.2
+- PyYAML>=5.3.1
+- requests>=2.23.0
+
 
 ### Environment
 | | |
@@ -57,20 +64,40 @@ Hasil dari pengembangan ini diharapkan dapat menghasilkan model yang dapat secar
 Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
 
 #### 1. Metrics
-Inform your model validation performances, as follows:
-- For classification tasks, use **Precision and Recall**.
-- For object detection tasks, use **Precision and Recall**. Additionaly, you may also use **Intersection over Union (IoU)**.
-- For image retrieval tasks, use **Precision and Recall**.
-- For optical character recognition (OCR) tasks, use **Word Error Rate (WER) and Character Error Rate (CER)**.
-- For adversarial-based generative tasks, use **Peak Signal-to-Noise Ratio (PNSR)**. Additionally, for specific GAN tasks,
-  - For single-image super resolution (SISR) tasks, use **Structural Similarity Index Measure (SSIM)**.
-  - For conditional image-to-image translation tasks (e.g., Pix2Pix), use **Inception Score**.
+1. Presisi (Precision):
+- Presisi tinggi menunjukkan bahwa model memiliki sedikit positif palsu.
+Dalam hal ini:
+- Presisi tertinggi: Cucumber_healty (0.99)
+- Presisi terendah: Potato_early_blight (0.90)
+2. Recall :
+- Recall adalah rasio dari prediksi positif yang benar terhadap semua observasi pada kelas sebenarnya.
+- Recall tinggi menunjukkan bahwa model memiliki sedikit negatif palsu.
+Dalam hal ini:
+- Recall tertinggi: Potato_early_blight (0.99)
+- Recall terendah: Tomato_healthy (0.94)
+3. F1-Score:
 
+- F1-Score adalah rata-rata tertimbang dari presisi dan recall. Rentangnya dari 0 hingga 1, di mana 1 adalah F1-Score terbaik.
+- Ini adalah metrik yang berguna ketika distribusi kelas tidak seimbang.
+Dalam hal ini:
+
+- F1-Score tertinggi: Cucumber_healty (0.99)
+- F1-Score terendah: Potato_early_blight (0.94)
+4. Support:
+
+- Support adalah jumlah kejadian aktual dari kelas tertentu dalam dataset yang ditentukan.
+5. Akurasi:
+
+- Akurasi adalah rasio dari prediksi yang benar terhadap total observasi.
+- Dalam hal ini, akurasi keseluruhan adalah 98%, menunjukkan bahwa model berkinerja baik pada dataset tersebut.
+
+- Nilai rata-rata makro dan rata-rata berbobot keduanya sekitar 0.98, menunjukkan kinerja keseluruhan yang baik.
+Secara keseluruhan, model ini tampaknya berperforma baik di berbagai kelas dengan presisi, recall, dan F1-score yang tinggi. Namun, penting untuk mempertimbangkan kebutuhan dan tujuan klasifikasi yang spesifik.
 Feel free to adjust the columns in the table below.
 
 | model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | ... |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| vit_b_16 | 1000 |  0.0001 | 32 | Adam | 0.093 | 88.34% | 84.15% | ... |
+| Modified_efficienNet | 30 |  0.001 | 32 | Adam | 0.093 | 88.34% | 84.15% | ... |
 | vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% | 87.55% | ... |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | 
 
