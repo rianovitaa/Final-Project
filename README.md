@@ -109,9 +109,6 @@ Berikut hasil gambar yang dapat diprediksi setelah model dilakukan pelatihan .
 
 ![testing](https://github.com/rianovitaa/Final-Project/assets/85721522/b93d1c65-7b73-40c2-9b62-83f4655f3ae4)
 
-### Deployment (Optional)
-Describe and show how you deploy this project (e.g., using Streamlit or Flask), if any.
-
 ## Supporting Documents
 ### Presentation Deck
 - Link: https://...
