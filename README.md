@@ -44,6 +44,14 @@ Alasan utama di balik pengembangan aplikasi Plant Health Monitoring adalah untuk
 Describe your dataset information here. Provide a screenshot for some of your dataset samples (for example, if you're using CIFAR10 dataset, then show an image for each class).
 - Link: https://...
 
+Dalam penelitian ini, dataset yang digunakan merupakan kumpulan foto daun dari tanaman timun, tomat, dan kentang, dengan sumber data berasal dari platform Kaggle. Dataset ini terdiri dari total 4000 foto yang terbagi dalam 8 kelas, masing-masing kelas memiliki 500 data foto. Kelas-kelas ini mencakup kondisi sehat dan tidak sehat pada tanaman timun, tomat, dan kentang, seperti unhealthy cucumber, healthy cucumber, healthy potato, early blight potato, late blight potato, healthy tomato, early blight tomato, dan late blight tomato.
+
+Selanjutnya, dataset ini menjalani proses augmentasi menggunakan transformasi PyTorch, yang melibatkan pengubahan ukuran (resize) gambar menjadi 224x224 piksel, serta penerapan horizontal flip, vertical flip, random rotation, dan color jilter. Langkah ini dimaksudkan untuk memperkaya variasi data dan meningkatkan keberagaman pola yang dapat dikenali oleh model.
+
+Proses pelatihan model dilakukan dengan menggunakan data yang telah di-augmentasi, dengan fokus pada kemampuan model untuk mengenali gambar dari berbagai arah dan kondisi cahaya, termasuk dalam situasi pencahayaan yang kurang. Model ini dilatih menggunakan data sebanyak 2400 gambar untuk training, sementara 480 gambar digunakan sebagai data testing dan 480 gambar lainnya sebagai data validation.
+
+Hasil dari pengembangan ini diharapkan dapat menghasilkan model yang dapat secara efektif mengenali dan membedakan kondisi kesehatan tanaman timun, tomat, dan kentang. Dengan adanya augmentasi data, pelatihan model diharapkan dapat lebih tangguh dan adaptif terhadap variasi kondisi di lapangan, yang pada gilirannya dapat mendukung keberhasilan aplikasi Plant Health Monitoring dalam deteksi dan diagnosis penyakit tanaman.
+
 ## Results
 ### Model Performance
 Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
