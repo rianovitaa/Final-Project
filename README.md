@@ -1,4 +1,4 @@
-# FINAL PROJECT TITLE HERE
+# Agrisense: Plant Health Monitoring Application based on Multiclass Image Classification to Detect and Diagnose Diseases in Food Plants
 
 ## Project Description
 Please describe your Startup Campus final project here. You may should your <b>model architecture</b> in JPEG or GIF.
