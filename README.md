@@ -1,17 +1,26 @@
 # Agrisense: Plant Health Monitoring Application based on Multiclass Image Classification to Detect and Diagnose Diseases in Food Plants
 
 ## Project Description
-Please describe your Startup Campus final project here. You may should your <b>model architecture</b> in JPEG or GIF.
+Project kami bertujuan untuk mengembangkan aplikasi Plant Health Monitoring yang berfokus pada deteksi dan diagnosis penyakit pada tanaman timun, tomat, dan kentang. Pemilihan ketiga jenis tanaman ini didasarkan pada konsumsi yang tinggi di masyarakat, serta adanya masalah serius dalam pasokan dan produksi, yang dapat memberikan dampak signifikan terhadap keberlanjutan pertanian dan pangan di Indonesia.
+
+Pertama, tanaman timun dipilih karena konsumsi mentimun di Indonesia terus meningkat setiap tahunnya, mencapai 2,10 kg per kapita pada tahun 2019. Dengan pertumbuhan konsumsi yang signifikan, perlunya pemantauan kesehatan tanaman timun menjadi sangat penting untuk menjaga ketersediaan dan kualitas pasokan.
+
+Kedua, tanaman tomat dipilih karena konsumsi tomat per kapita mencapai 3,57 kg per tahun, sementara pasokan tomat tidak mencukupi permintaan yang ada. Dengan demikian, peningkatan produksi tomat yang sehat menjadi krusial untuk mengatasi kesenjangan antara permintaan dan pasokan, sehingga aplikasi ini dapat memberikan kontribusi positif dalam memenuhi kebutuhan konsumen.
+
+Ketiga, tanaman kentang dipilih karena konsumsi kentang nasional per kapita meningkat dari 2282 kg pada tahun 2018 menjadi 2547 kg pada tahun 2019. Pertumbuhan konsumsi yang signifikan ini menunjukkan pentingnya meningkatkan produktivitas dan kesehatan tanaman kentang untuk memenuhi kebutuhan pangan yang terus bertambah.
+
+Alasan utama di balik pengembangan aplikasi Plant Health Monitoring adalah untuk mengatasi masalah yang dihadapi oleh para petani dan ibu rumah tangga, yaitu serangan hama dan penyakit yang dapat mengakibatkan penurunan produksi tanaman. Dengan adanya pemantauan kesehatan tanaman yang canggih, diharapkan dapat meningkatkan hasil pertanian, mengurangi kerugian akibat penyakit tanaman, dan pada gilirannya, mendukung ketahanan pangan nasional. Oleh karena itu, penelitian ini memiliki relevansi yang tinggi dalam konteks pertanian modern yang berkelanjutan dan berkontribusi pada upaya memenuhi kebutuhan pangan yang terus berkembang di masyarakat.
 
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
 | --- | --- | --- | --- | --- |
-| ... | ... | ... | ... | Team Lead |
-| ... | ... | ... | ... | Team Member |
-| ... | ... | ... | ... |Team Member |
-| ... | ... | ... | ... | ... |
-| ... | ... | ... | ... | ... |
-| Nicholas Dominic | Startup Campus, AI Track | nic.dominic@icloud.com | [link](https://linkedin.com/in/nicholas-dominic) | Supervisor |
+| Jessica Adelina Prameswari | Universitas Negeri Semarang | jessicadelina1709@gmail.com | [link](https://linkedin.com/in/jessica-adelina17) | Team Lead |
+| Ria Novita Awalia Ramadhani | Institut Teknologi Telkom Purwokerto | rianovitaar@gmail.com | [link](https://linkedin.com/in/rianovitaar) | Team Member |
+| Rakhimatulfitria Mekacahyani | Universitas Islam Sultan Agung | cahyani.pipit@gmail.com | [link](https://linkedin.com/in/rakhimatulfitria-mekacahyani-6b95b1291) |Team Member |
+| Muhammad Rama Diennova Sulistyo | Universitas Sebelas Maret | RamaSulistyo@gmail.com | [link](https://linkedin.com/in/muhammad-rama-diennova-sulistyo-75b291284) | Team Member |
+| Muhammad Rizky Pradhitia | Universitas Telkom | rizkypradhitia1@gmail.com | [link](https://linkedin.com/in/rizkypradhitia) | Team Member |
+| Jonathan Lexi Febrian Sitohang | Universitas Sumatera Utara | jonathanlexi02@gmail.com | [link](https://linkedin.com/in/jonathanlexi) | Team Member |
+| Aries Fitriawan | Startup Campus, AI Track | nic.dominic@icloud.com | [link](https://linkedin.com/in/ariesfitriawan) | Supervisor |
 
 ## Setup
 ### Prerequisite Packages (Dependencies)
