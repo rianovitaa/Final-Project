@@ -100,7 +100,7 @@ Berikut arsitektur modfikasi model efficientNet pytorch :
 ![Beige Colorful Minimal Flowchart Infographic Graph](https://github.com/rianovitaa/Final-Project/assets/85721522/85969263-2e97-439b-b6e6-c71678951627)
 
 #### 3. Training/Validation Curve
-Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
+Berdasarkan hasil grafik tersebut , model dapat tidak mengalami underfitting dan overfitting
 
 ![trainind and test result ](https://github.com/rianovitaa/Final-Project/assets/85721522/afddcb03-b1f9-4fb3-8b2c-370dc25a61b8)
 
