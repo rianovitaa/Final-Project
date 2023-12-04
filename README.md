@@ -124,9 +124,16 @@ Provide a link to your short video, that should includes the project background 
 
 ## References
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
-- Link: https://...
-- Link: https://...
-- Link: https://...
+- Link: https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012148/pdf
+- Link: https://www.mdpi.com/2079-9292/10/12/1388
+- Link: https://ieeexplore.ieee.org/document/8258820
+- Link: https://arxiv.org/abs/1905.11946
+- Link: https://catalog.ngc.nvidia.com/orgs/nvidia/models/efficientnet_b0_pyt_amp
+- Link: https://pytorch.org/vision/stable/transforms.html
+- Link: https://www.kaggle.com/datasets/kareem3egm/cucumber-plant-diseases-dataset?  select=Cucumber+plant+diseases+dataset
+- Link: https://www.kaggle.com/datasets/farahseifeld/greenhouse-cucumber-growth-stages?select=Unhealthy+Leaves
+- Link: https://www.kaggle.com/datasets/raiaone/olid-i?select=cucumber__K
+- Link: https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset?select=Cucumber__diseased
 
 ## Additional Comments
 Provide your team's additional comments or final remarks for this project. For example,
@@ -146,4 +153,4 @@ If you find this project useful, we'd grateful if you cite this repository:
 For academic and non-commercial use only.
 
 ## Acknowledgement
-This project entitled <b>"YOUR PROJECT TITLE HERE"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
+This project entitled <b>"Agrisense: Plant Health Monitoring Application based on Multiclass Image Classification to Detect and Diagnose Diseases in Food Plants"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
