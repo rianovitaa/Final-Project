@@ -130,7 +130,7 @@ Provide all links that support this final project, i.e., papers, GitHub reposito
 - Link: https://arxiv.org/abs/1905.11946
 - Link: https://catalog.ngc.nvidia.com/orgs/nvidia/models/efficientnet_b0_pyt_amp
 - Link: https://pytorch.org/vision/stable/transforms.html
-- Link: https://www.kaggle.com/datasets/kareem3egm/cucumber-plant-diseases-dataset?  select=Cucumber+plant+diseases+dataset
+- Link: https://www.kaggle.com/datasets/kareem3egm/cucumber-plant-diseases-dataset
 - Link: https://www.kaggle.com/datasets/farahseifeld/greenhouse-cucumber-growth-stages?select=Unhealthy+Leaves
 - Link: https://www.kaggle.com/datasets/raiaone/olid-i?select=cucumber__K
 - Link: https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset?select=Cucumber__diseased
