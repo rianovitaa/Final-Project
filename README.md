@@ -47,7 +47,8 @@ Alasan utama di balik pengembangan aplikasi Plant Health Monitoring adalah untuk
 | OS | Linux #1 SMP |
 
 ## Dataset
-Describe your dataset information here. Provide a screenshot for some of your dataset samples
+![Dataset](https://github.com/rianovitaa/Final-Project/assets/137513035/840f5980-b384-459d-9c37-cc0b7c7669ed)
+
 - Link: https://drive.google.com/drive/folders/1xAsB9GOHfEk3KmAGTDCOIAWyojzmD3yD?usp=sharing
 
 Dalam penelitian ini, dataset yang digunakan merupakan kumpulan foto daun dari tanaman timun, tomat, dan kentang, dengan sumber data berasal dari platform Kaggle. Dataset ini terdiri dari total 4000 foto yang terbagi dalam 8 kelas, masing-masing kelas memiliki 500 data foto. Kelas-kelas ini mencakup kondisi sehat dan tidak sehat pada tanaman timun, tomat, dan kentang, seperti unhealthy cucumber, healthy cucumber, healthy potato, early blight potato, late blight potato, healthy tomato, early blight tomato, dan late blight tomato.
