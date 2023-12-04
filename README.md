@@ -110,7 +110,7 @@ Berikut hasil gambar yang dapat diprediksi setelah model dilakukan pelatihan .
 
 ## Supporting Documents
 ### Presentation Deck
-- Link: https://...
+- Link: https://drive.google.com/drive/folders/1EvTocHpmoD9gduT7jAykK9x-3tiGFG2y?usp=sharing
 
 ### Business Model Canvas
 Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
