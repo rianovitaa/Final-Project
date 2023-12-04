@@ -61,7 +61,6 @@ Hasil dari pengembangan ini diharapkan dapat menghasilkan model yang dapat secar
 
 ## Results
 ### Model Performance
-Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
 
 #### 1. Metrics
 1. Presisi (Precision):
@@ -114,16 +113,13 @@ Berikut hasil gambar yang dapat diprediksi setelah model dilakukan pelatihan .
 - Link: https://drive.google.com/drive/folders/1EvTocHpmoD9gduT7jAykK9x-3tiGFG2y?usp=sharing
 
 ### Business Model Canvas
-Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
 ![Business Model Canvas](https://github.com/rianovitaa/Final-Project/assets/137513035/2ff02d4f-4f7d-4cf7-851b-0b1e44daafb9)
 
 
 ### Short Video
-Provide a link to your short video, that should includes the project background and how it works.
 - Link: https://drive.google.com/drive/folders/1TTxJ99AEY8OVT8bcg0JsUmZoG1TErQw3?usp=drive_link
 
 ## References
-Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
 - Link: https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012148/pdf
 - Link: https://www.mdpi.com/2079-9292/10/12/1388
 - Link: https://ieeexplore.ieee.org/document/8258820
