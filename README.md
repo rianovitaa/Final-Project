@@ -115,6 +115,8 @@ Berikut hasil gambar yang dapat diprediksi setelah model dilakukan pelatihan .
 
 ### Business Model Canvas
 Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
+![Business Model Canvas](https://github.com/rianovitaa/Final-Project/assets/137513035/2ff02d4f-4f7d-4cf7-851b-0b1e44daafb9)
+
 
 ### Short Video
 Provide a link to your short video, that should includes the project background and how it works.
