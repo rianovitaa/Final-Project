@@ -48,8 +48,8 @@ Alasan utama di balik pengembangan aplikasi Plant Health Monitoring adalah untuk
 | OS | Example: macOS Sonoma v14.1.1 |
 
 ## Dataset
-Describe your dataset information here. Provide a screenshot for some of your dataset samples (for example, if you're using CIFAR10 dataset, then show an image for each class).
-- Link: https://...
+Describe your dataset information here. Provide a screenshot for some of your dataset samples
+- Link: https://drive.google.com/drive/folders/1xAsB9GOHfEk3KmAGTDCOIAWyojzmD3yD?usp=sharing
 
 Dalam penelitian ini, dataset yang digunakan merupakan kumpulan foto daun dari tanaman timun, tomat, dan kentang, dengan sumber data berasal dari platform Kaggle. Dataset ini terdiri dari total 4000 foto yang terbagi dalam 8 kelas, masing-masing kelas memiliki 500 data foto. Kelas-kelas ini mencakup kondisi sehat dan tidak sehat pada tanaman timun, tomat, dan kentang, seperti unhealthy cucumber, healthy cucumber, healthy potato, early blight potato, late blight potato, healthy tomato, early blight tomato, dan late blight tomato.
 
@@ -120,7 +120,7 @@ Provide a screenshot of your Business Model Canvas (BMC). Give some explanations
 
 ### Short Video
 Provide a link to your short video, that should includes the project background and how it works.
-- Link: https://...
+- Link: https://drive.google.com/drive/folders/1TTxJ99AEY8OVT8bcg0JsUmZoG1TErQw3?usp=drive_link
 
 ## References
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
