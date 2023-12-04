@@ -20,7 +20,7 @@ Alasan utama di balik pengembangan aplikasi Plant Health Monitoring adalah untuk
 | Muhammad Rama Diennova Sulistyo | Universitas Sebelas Maret | RamaSulistyo@gmail.com | [link](https://linkedin.com/in/muhammad-rama-diennova-sulistyo-75b291284) | Team Member |
 | Muhammad Rizky Pradhitia | Universitas Telkom | rizkypradhitia1@gmail.com | [link](https://linkedin.com/in/rizkypradhitia) | Team Member |
 | Jonathan Lexi Febrian Sitohang | Universitas Sumatera Utara | jonathanlexi02@gmail.com | [link](https://linkedin.com/in/jonathanlexi) | Team Member |
-| Aries Fitriawan | Startup Campus, AI Track | nic.dominic@icloud.com | [link](https://linkedin.com/in/ariesfitriawan) | Supervisor |
+| Aries Fitriawan | Startup Campus, AI Track | aries.f1991@gmail.com | [link](https://linkedin.com/in/ariesfitriawan) | Supervisor |
 
 ## Setup
 ### Prerequisite Packages (Dependencies)
