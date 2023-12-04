@@ -41,11 +41,10 @@ Alasan utama di balik pengembangan aplikasi Plant Health Monitoring adalah untuk
 ### Environment
 | | |
 | --- | --- |
-| CPU | Example: Apple M3 Pro 12-core CPU |
-| GPU | Example: Nvidia A100 (x1) |
-| ROM | Example: 1 TB SSD |
-| RAM | Example: 36 GB |
-| OS | Example: macOS Sonoma v14.1.1 |
+| CPU | Intel Xeon |
+| GPU | Nvidia T4  |
+| RAM | 51 GB |
+| OS | Linux #1 SMP |
 
 ## Dataset
 Describe your dataset information here. Provide a screenshot for some of your dataset samples
