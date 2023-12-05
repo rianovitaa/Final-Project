@@ -94,6 +94,8 @@ Dalam hal ini:
 Secara keseluruhan, model ini tampaknya berperforma baik di berbagai kelas dengan presisi, recall, dan F1-score yang tinggi. Namun, penting untuk mempertimbangkan kebutuhan dan tujuan klasifikasi yang spesifik.
 Feel free to adjust the columns in the table below.
 
+| Full Name | Affiliation | Email | LinkedIn | Role |
+
 | Model | epoch | learning_rate | Batch_size | optimizer | accuracy |
 | EfficientNet | 100 | 0.0001 | | Adam | 97.73% |
 | AlexNet | 100 | 0.0001 | | Adam | 87% |
