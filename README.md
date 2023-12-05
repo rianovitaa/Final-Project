@@ -60,10 +60,6 @@ Proses pelatihan model dilakukan dengan menggunakan data yang telah di-augmentas
 Hasil dari pengembangan ini diharapkan dapat menghasilkan model yang dapat secara efektif mengenali dan membedakan kondisi kesehatan tanaman timun, tomat, dan kentang. Dengan adanya augmentasi data, pelatihan model diharapkan dapat lebih tangguh dan adaptif terhadap variasi kondisi di lapangan, yang pada gilirannya dapat mendukung keberhasilan aplikasi Plant Health Monitoring dalam deteksi dan diagnosis penyakit tanaman.
 
 ## Results
-| Model | epoch | learning_rate | Batch_size | optimizer | accuracy |
-| EfficientNet | 100 | 0.0001 | | Adam | 97.73% |
-| AlexNet | 100 | 0.0001 | | Adam | 87% |
-| MobileNet | 100 | 0.0001 | | Adam | 65% |
 
 ### Model Performance
 
