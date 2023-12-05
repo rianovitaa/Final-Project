@@ -60,6 +60,11 @@ Proses pelatihan model dilakukan dengan menggunakan data yang telah di-augmentas
 Hasil dari pengembangan ini diharapkan dapat menghasilkan model yang dapat secara efektif mengenali dan membedakan kondisi kesehatan tanaman timun, tomat, dan kentang. Dengan adanya augmentasi data, pelatihan model diharapkan dapat lebih tangguh dan adaptif terhadap variasi kondisi di lapangan, yang pada gilirannya dapat mendukung keberhasilan aplikasi Plant Health Monitoring dalam deteksi dan diagnosis penyakit tanaman.
 
 ## Results
+| Model | epoch | learning_rate | Batch_size | optimizer | accuracy |
+| EfficientNet | 100 | 0.0001 | | Adam | 97.73% |
+| AlexNet | 100 | 0.0001 | | Adam | 87% |
+| MobileNet | 100 | 0.0001 | | Adam | 65% |
+
 ### Model Performance
 
 #### 1. Metrics
@@ -93,11 +98,6 @@ Dalam hal ini:
 - Nilai rata-rata makro dan rata-rata berbobot keduanya sekitar 0.98, menunjukkan kinerja keseluruhan yang baik.
 Secara keseluruhan, model ini tampaknya berperforma baik di berbagai kelas dengan presisi, recall, dan F1-score yang tinggi. Namun, penting untuk mempertimbangkan kebutuhan dan tujuan klasifikasi yang spesifik.
 Feel free to adjust the columns in the table below.
-
-(|) Model (|) epoch | learning_rate | Batch_size | optimizer | accuracy |
-| EfficientNet | 100 | 0.0001 | | Adam | 97.73% |
-| AlexNet | 100 | 0.0001 | | Adam | 87% |
-| MobileNet | 100 | 0.0001 | | Adam | 65% |
 
 #### 2. Ablation Study
 Berikut arsitektur modfikasi model efficientNet pytorch : 
