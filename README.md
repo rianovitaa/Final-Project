@@ -93,14 +93,8 @@ Dalam hal ini:
 - Nilai rata-rata makro dan rata-rata berbobot keduanya sekitar 0.98, menunjukkan kinerja keseluruhan yang baik.
 Secara keseluruhan, model ini tampaknya berperforma baik di berbagai kelas dengan presisi, recall, dan F1-score yang tinggi. Namun, penting untuk mempertimbangkan kebutuhan dan tujuan klasifikasi yang spesifik.
 Feel free to adjust the columns in the table below.
-| Kolom 1 | Kolom 2 | Kolom 3 |
-|---------|---------|---------|
-| Baris 1  | Data 1  | Data 2  |
-| Baris 2  | Data 3  | Data 4  |
-| Baris 3  | Data 5  | Data 6  |
 
-
-| Model | epoch | learning_rate | Batch_size | optimizer | accuracy |
+(|) Model (|) epoch | learning_rate | Batch_size | optimizer | accuracy |
 | EfficientNet | 100 | 0.0001 | | Adam | 97.73% |
 | AlexNet | 100 | 0.0001 | | Adam | 87% |
 | MobileNet | 100 | 0.0001 | | Adam | 65% |
