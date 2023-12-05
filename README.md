@@ -95,7 +95,6 @@ Secara keseluruhan, model ini tampaknya berperforma baik di berbagai kelas denga
 Feel free to adjust the columns in the table below.
 
 | Model | epoch| learning_rate | Batch_size | optimizer | accuracy |
-| --- | --- | --- | --- | --- |
 | EfficientNet | 100 | 0.0001 | | Adam | 97.73% |
 | AlexNet | 100 | 0.0001 | | Adam | 87% |
 | MobileNet | 100 | 0.0001 | | Adam | 65% |
