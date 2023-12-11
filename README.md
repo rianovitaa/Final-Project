@@ -64,6 +64,11 @@ Hasil dari pengembangan ini diharapkan dapat menghasilkan model yang dapat secar
 ### Model Performance
 
 #### 1. Metrics
+Hasil metrics dari ketiga arsitektur yang telah dilakukan pemodelan , didapat hasil dari masing masing model sebagai berikut : 
+##### 1. AlexNet
+##### 2. MobileNet
+##### 3. EfficientNet
+Hasil metrics EfficientNet sebagai berikut ,
 1. Presisi (Precision):
 - Presisi tinggi menunjukkan bahwa model memiliki sedikit positif palsu.
 Dalam hal ini:
