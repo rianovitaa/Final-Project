@@ -66,7 +66,12 @@ Hasil dari pengembangan ini diharapkan dapat menghasilkan model yang dapat secar
 #### 1. Metrics
 Hasil metrics dari ketiga arsitektur yang telah dilakukan pemodelan , didapat hasil dari masing masing model sebagai berikut : 
 ##### 1. AlexNet
+Hasil pemodelan dengan arsitektur Alexnet pada dataset yang telah diaugmentasi dan menggunakan optimizer Adam dan criterion CrossEntropyLoss didapat hasil akurasi akhir 12% dengan waktu pelatihan sebanyak 25 Epoch membutuhkan waktu 2 jam 4 menit. Performa model tidak baik dan sangat lama .  
+Informasi lebih lanjut : https://colab.research.google.com/drive/1O26xAipGdCOmdD68Zu94tydcGqeSgD0W?usp=sharing
 ##### 2. MobileNet
+Hasil pemodelan dengan Arsitektur MobileNet pada dataset yang telah diaugmentasi dan menggunakan optimizer Adam dan criterion yang sama dengan AlexNet . Didapat model MobileNet memiliki nilai TP(True Positif) pada masing masing class yang dimana model dapat klasifikasi masing masing class dengan baik dari pada Alexnet . Hasil TP sekitar 73-75 dengan hasil akurasi akhir 99% . Performa MobileNet lebih baik daripada AlexNet namun model masih mengalami underfitting
+
+Informasi lebih lanjut : https://colab.research.google.com/drive/1lQG7MjRalXJAJA3KfXgv_1tHnqkhcPj_?usp=sharing
 ##### 3. EfficientNet
 Hasil metrics EfficientNet sebagai berikut ,
 1. Presisi (Precision):
@@ -81,26 +86,35 @@ Dalam hal ini:
 - Recall tertinggi: Potato_early_blight (0.99)
 - Recall terendah: Tomato_healthy (0.94)
 3. F1-Score:
-
 - F1-Score adalah rata-rata tertimbang dari presisi dan recall. Rentangnya dari 0 hingga 1, di mana 1 adalah F1-Score terbaik.
 - Ini adalah metrik yang berguna ketika distribusi kelas tidak seimbang.
 Dalam hal ini:
-
 - F1-Score tertinggi: Cucumber_healty (0.99)
 - F1-Score terendah: Potato_early_blight (0.94)
 4. Support:
-
 - Support adalah jumlah kejadian aktual dari kelas tertentu dalam dataset yang ditentukan.
 5. Akurasi:
 
 - Akurasi adalah rasio dari prediksi yang benar terhadap total observasi.
 - Dalam hal ini, akurasi keseluruhan adalah 98%, menunjukkan bahwa model berkinerja baik pada dataset tersebut.
-
 - Nilai rata-rata makro dan rata-rata berbobot keduanya sekitar 0.98, menunjukkan kinerja keseluruhan yang baik.
-Secara keseluruhan, model ini tampaknya berperforma baik di berbagai kelas dengan presisi, recall, dan F1-score yang tinggi. Namun, penting untuk mempertimbangkan kebutuhan dan tujuan klasifikasi yang spesifik.
-Feel free to adjust the columns in the table below.
+Secara keseluruhan, dibandingkan dengan model lainnya EfficienNet tampaknya berperforma baik di berbagai kelas dengan presisi, recall, dan F1-score yang tinggi.
 
+Informasi lebih lanjut : https://colab.research.google.com/drive/18p9nHrGm_fVwsfKvgQo5KjA_LKfUyWvz?usp=sharing
+
+Perbandingan ketiga model : 
+
+| Model |	Epoch	| Learning Rate | Batch Size | Criterion | Optimizer | Train Loss |	Train Accuracy | Test Loss | Test Accuracy |	Time |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Modified_EfficienNet | 30 |	0.001 | 24 | CrossEntropyLoss |	Adam | 5.29% | 98.71% |	11.34% | 97.73% | 22  Mins |
+| MobileNet | 30 |	0.001 | 24 | CrossEntropyLoss |	Adam | 3.47% | 98.92% |	2.40% | 99.00% |	22 Mins |  60  Mins |
+| AlexNet | 30 |	0.001 | 24 | CrossEntropyLoss |	Adam | 6.50% | 12% | 6.50% | 12% | 2 Hours 4 Mins |
+			
 #### 2. Ablation Study
+Setelah dilakukan perbandingan dengan ketiga model , EfficientNet digunakan karena memiliki performa akurasi yang baik dan training model hanya membutuhkan 22 menit . 
+Modifikasi model EfficientNet dengan menambahkan 1 layer convolusi untuk menyesuaikan dengan jumlah class yang diprediksi dan menambahkan parameter dropout 
+untuk mengurangi jumlah parameter model 
+
 Berikut arsitektur modfikasi model efficientNet pytorch : 
 ![Beige Colorful Minimal Flowchart Infographic Graph](https://github.com/rianovitaa/Final-Project/assets/85721522/85969263-2e97-439b-b6e6-c71678951627)
 
