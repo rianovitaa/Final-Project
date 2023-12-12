@@ -128,6 +128,13 @@ Berikut hasil gambar yang dapat diprediksi setelah model dilakukan pelatihan .
 
 ![testing](https://github.com/rianovitaa/Final-Project/assets/85721522/b93d1c65-7b73-40c2-9b62-83f4655f3ae4)
 
+### Deployment 
+
+Deployment dilakukan di Streamlit dengan Google Collab 
+
+https://github.com/rianovitaa/Final-Project-SC5AI-Mindwave/assets/85721522/e7bbee46-624c-46f0-b66c-d2827cf2a653
+
+
 ## Supporting Documents
 ### Presentation Deck
 - Link: https://drive.google.com/drive/folders/1EvTocHpmoD9gduT7jAykK9x-3tiGFG2y?usp=sharing
